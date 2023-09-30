@@ -4,7 +4,8 @@ session_start();
 include('includes/config.php');
 if(strlen($_SESSION['login'])==0)
     {   
-header('location:index.php');   
+header('location:index.php'); 
+hola  
 }
 else{
 	// code for billing address updation
